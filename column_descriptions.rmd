@@ -1,0 +1,54 @@
+# Column Descriptions for the Dataset
+
+Here are the descriptions of some of the key features in the dataset, explained in a way that is easy to understand:
+
+SK_ID_CURR: Unique identifier for each loan application.
+TARGET: Target variable indicating whether the client had difficulties repaying the loan (1 for difficulties, 0 for no difficulties).
+NAME_CONTRACT_TYPE: Indicates the type of loan (e.g., Cash loans or Revolving loans).
+CODE_GENDER: Gender of the client (M for Male, F for Female).
+FLAG_OWN_CAR: Indicates if the client owns a car (Y for Yes, N for No).
+FLAG_OWN_REALTY: Indicates if the client owns a house or apartment (Y for Yes, N for No).
+CNT_CHILDREN: Number of children the client has.
+AMT_INCOME_TOTAL: Total income of the client.
+AMT_CREDIT: Amount of the loan.
+AMT_ANNUITY: Annuity of the loan.
+AMT_GOODS_PRICE: For consumer loans, it's the price of the goods for which the loan was given.
+NAME_INCOME_TYPE: Income category of the client (e.g., Working, State servant, Pensioner).
+NAME_EDUCATION_TYPE: Highest level of education the client achieved (e.g., Secondary, Higher).
+NAME_FAMILY_STATUS: Family status of the client (e.g., Single, Married).
+NAME_HOUSING_TYPE: What type of housing the client lives in (e.g., House/apartment, Rented apartment).
+DAYS_BIRTH: Client's age in days at the time of application.
+DAYS_EMPLOYED: How many days before the application the client started their current employment.
+DAYS_REGISTRATION: How many days before the application the client registered at the current address.
+DAYS_ID_PUBLISH: How many days before the application the client's ID was changed.
+OWN_CAR_AGE: Age of the client's car.
+FLAG_MOBIL: Is the client’s mobile phone reachable (1 for Yes, 0 for No).
+FLAG_EMP_PHONE: Does the client have a work phone (1 for Yes, 0 for No).
+FLAG_WORK_PHONE: Does the client have a phone (1 for Yes, 0 for No).
+FLAG_CONT_MOBILE: Does the client have a mobile phone (1 for Yes, 0 for No).
+FLAG_PHONE: Does the client have a phone (1 for Yes, 0 for No).
+FLAG_EMAIL: Does the client have an email (1 for Yes, 0 for No).
+OCCUPATION_TYPE: What kind of job the client has (e.g., Laborers, Sales staff).
+CNT_FAM_MEMBERS: Number of family members.
+REGION_RATING_CLIENT: Rating of the region where the client lives.
+REGION_RATING_CLIENT_W_CITY: Rating of the region where the client lives with the city.
+WEEKDAY_APPR_PROCESS_START: On which day of the week the client applied for the loan.
+HOUR_APPR_PROCESS_START: At what hour of the day the client applied for the loan.
+REG_REGION_NOT_LIVE_REGION: Is the client's permanent address region different from the region they are living in (1 for Yes, 0 for No).
+REG_REGION_NOT_WORK_REGION: Is the client's permanent address region different from the region they are working in (1 for Yes, 0 for No).
+LIVE_REGION_NOT_WORK_REGION: Is the client's current address region different from the region they are working in (1 for Yes, 0 for No).
+REG_CITY_NOT_LIVE_CITY: Is the client's permanent address city different from the city they are living in (1 for Yes, 0 for No).
+REG_CITY_NOT_WORK_CITY: Is the client's permanent address city different from the city they are working in (1 for Yes, 0 for No).
+LIVE_CITY_NOT_WORK_CITY: Is the client's current address city different from the city they are working in (1 for Yes, 0 for No).
+ORGANIZATION_TYPE: Type of organization where the client works.
+EXT_SOURCE_1, EXT_SOURCE_2, EXT_SOURCE_3: Normalized scores from external data sources.
+APARTMENTS_AVG, BASEMENTAREA_AVG, YEARS_BEGINEXPLUATATION_AVG, YEARS_BUILD_AVG: Normalized information about the client's house/apartment.
+FLOORSMAX_AVG, FLOORSMIN_AVG, LANDAREA_AVG: Normalized information about the client's house/apartment.
+TOTALAREA_MODE: Normalized information about the total area of the client’s house/apartment.
+OBS_30_CNT_SOCIAL_CIRCLE: How many observation points are in the client's social environment (within 30 days).
+DEF_30_CNT_SOCIAL_CIRCLE: How many observation points are in the client's social environment (defaulted within 30 days).
+OBS_60_CNT_SOCIAL_CIRCLE: How many observation points are in the client's social environment (within 60 days).
+DEF_60_CNT_SOCIAL_CIRCLE: How many observation points are in the client's social environment (defaulted within 60 days).
+DAYS_LAST_PHONE_CHANGE: How many days before the application the client's phone number was changed.
+FLAG_DOCUMENT_2 to FLAG_DOCUMENT_21: Flags for the documents the client provided.
+AMT_REQ_CREDIT_BUREAU_HOUR, AMT_REQ_CREDIT_BUREAU_DAY, AMT_REQ_CREDIT_BUREAU_WEEK, AMT_REQ_CREDIT_BUREAU_MON, AMT_REQ_CREDIT_BUREAU_QRT, AMT_REQ_CREDIT_BUREAU_YEAR: Number of inquiries to the Credit Bureau about the client.
